@@ -12,27 +12,55 @@
 </script>
 </head>
 <body>
-<div id="fb-root" class=" fb_reset">
-    <div style="position: absolute; top: -10000px; width:0px; height:0px;">
-        <div></div>
-    </div>
-</div>
+    <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="6cmgjqos"></script>
-<nav class = "navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" mb-0="" h1="" href="index.html">Pokemon Master</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    <div id="navbarNav" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav_link activate" href="index.html">Home</a>
-            </li>
-        </ul>
+
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
     </div>
+    
+    <div style="padding-left:16px">
+      <h2>Top Navigation Example</h2>
+      <p>Some content..</p>
     </div>
-</nav>
+    
+
 <h1>Hello Guys and Welcome to my Website</h1>
 <h2> This page was created for a course I'm in called <a href="https://github.com/mikeizbicki/cmc-csci040"> Computing for the Web</a> that is being taught by <a href="https://izbicki.me/"> Professor Izbicki </a> and it helped me get lots of practice with using HTML and CSS.
 </h2>
