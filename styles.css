@@ -25,4 +25,15 @@
       .topnav a.active {
         background-color: #04AA6D;
         color: white;
+    }
+
+#a:hover {
+        background-color: yellow;
       }
+#links {
+    color: red"</a>
+}
+
+#example{
+    color:red;
+}
