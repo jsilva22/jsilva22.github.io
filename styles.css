@@ -43,14 +43,33 @@ a:hover {
     }
 
 
-    
-
-@media only screen (max-width: 500px) {
-    body {
-        background-color: lightblue
-    }
-
-}
-
+@media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
 
     
+
+
+
+
+
+
+
+  * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
