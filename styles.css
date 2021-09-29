@@ -42,12 +42,15 @@ a:hover {
       color: white;
     }
 
-#sizing {
-    @media only screen and (max-width: 400px) {
-        body {
-          background-color: lightblue;
-}
 
+    
+
+@media only screen (max-width: 500px) {
+    body {
+        background-color: lightblue
+    }
+
+}
 
 
     
