@@ -2,14 +2,14 @@ a:hover {
     background-color: rgb(66, 207, 23);
   }
 #links {
-    color: red"</a>
+    color: gold"</a>
 }
 
 #example{
-    color:red;
+    color:gold;
 }
 #example2{
-    color:yellow
+    color:gold
 }
 
 .topnav {overflow: hidden;
@@ -80,7 +80,7 @@ th, td {
       }
 
 body {
-        background-color: red;
+        background-color: rgb(126, 109, 109);
       }
       
       @media only screen and (max-width: 700px) {
