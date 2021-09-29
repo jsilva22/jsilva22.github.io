@@ -9,7 +9,11 @@ a:hover {
     color:gold;
 }
 #example2{
-    color:gold
+    color:lime
+}
+
+#example3{
+    color:maroon
 }
 
 .topnav {overflow: hidden;
